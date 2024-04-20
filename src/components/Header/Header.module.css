@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px 0px #00000026;
+}
+.header__text {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.header__btn_container {
+display: flex;
+gap: 1.5rem;
+}
+.header__btn {
+  outline: none;
+  border: none;
+  border-radius: 1.25rem; 
+  color: #fff;
+  height: 2.8rem;
+  width: 7.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.header__btn_container .header__btn:nth-child(1) {
+   background-color: var(--color-btn-1);
+}
+.header__btn_container .header__btn:nth-child(2) {
+   background-color: var(--color-btn-2);
+}
