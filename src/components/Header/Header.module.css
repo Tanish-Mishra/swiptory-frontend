@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2.5rem;
+    padding: 0 var(--margin-medium);
     height: 10vh;
     width: 100%;
     background-color: #fff;
@@ -10,7 +10,7 @@
 }
 .header__text {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: var(--font-medium);
 }
 .header__btn_container {
 display: flex;
@@ -24,7 +24,7 @@ gap: 1.5rem;
   height: 2.8rem;
   width: 7.5rem;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--font-small);
   cursor: pointer;
 }
 .header__btn_container .header__btn:nth-child(1) {

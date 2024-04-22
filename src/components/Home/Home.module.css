@@ -1,0 +1,27 @@
+.home__storycard_container {
+    padding: 2rem 1.5rem;
+   justify-content: space-around;
+    display: flex;
+}
+.home__cards {
+  color: #fff;
+  font-size: var(--font-medium);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12rem;
+  width: 13rem;
+  border-radius: 2rem;
+  background-size: cover;
+ cursor: pointer;
+}
+.home__story_card_container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+.home__story_card_heading {
+    font-size: var(--font-medium);
+    align-self: center;
+}
